@@ -1,0 +1,17 @@
+contentdir: "content"
+layoutdir: "layouts"
+publishdir: "public"
+indexes:
+  category: "categories"
+baseurl: "http://elgris.github.io"
+title: "Blog of elgris. In shadows."
+footnotereturnlinkcontents: "↩"
+permalinks:
+  post: /:year/:month/:title/
+params:
+  Subtitle: "Welcome to exposed mind of little particle of our huge incredible world"
+  AuthorName: "elgris"
+  GitHubUser: "elgris"
+  SidebarRecentLimit: 5
+canonifyurls: true
+disableLiveReload: true
