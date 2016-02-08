@@ -1,10 +1,10 @@
 ---
-title: "Just another sample post"
-date: "2014-03-29"
-description: "This should be a more useful description"
+title: "Hi everybody!"
+date: "2016-02-08"
+description: "My first post here"
 categories:
-    - "hugo"
-    - "fun"
-    - "test"
+    - "tech"
+    - "travel"
 ---
-# Hey! This is my first post here!
+
+Really, my first post :)

@@ -1,10 +1,7 @@
 contentdir: "content"
-layoutdir: "layouts"
 publishdir: "public"
-indexes:
-  category: "categories"
 baseurl: "http://elgris.github.io"
-title: "Blog of elgris. In shadows."
+title: "elgris = \" + \".join(\"tech\", \"travel\")"
 footnotereturnlinkcontents: "↩"
 permalinks:
   post: /:year/:month/:title/
