@@ -11,4 +11,4 @@ params:
   GitHubUser: "elgris"
   SidebarRecentLimit: 5
 canonifyurls: true
-disableLiveReload: true
+theme: "liquorice"
