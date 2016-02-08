@@ -7,4 +7,4 @@ categories:
     - "travel"
 ---
 
-Really, my first post :)
+Really, my first post.
