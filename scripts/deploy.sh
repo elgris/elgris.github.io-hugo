@@ -6,16 +6,20 @@ chmod 600 $SSH_KEY
 eval `ssh-agent -s`
 ssh-add $SSH_KEY
 
-# Go To Public folder
+
+# Generate codebase
+cd public
+git checkout -f master
+cd ..
+hugo
 cd public
 
-# Add changes to git.
+# set up git
 git config user.name "$GIT_NAME"
 git config user.email "$GIT_EMAIL"
 git remote set-url --push origin git@github.com:"$GIT_NAME"/"$GIT_NAME".github.io.git
-git stash
-git checkout master
-git stash pop
+
+# Add changes to git.
 git add -A
 
 # Commit changes.
