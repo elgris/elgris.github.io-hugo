@@ -2,6 +2,10 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+chmod 600 $SSH_KEY
+eval `ssh-agent -s`
+ssh-add $SSH_KEY
+
 # Go To Public folder
 cd public
 
@@ -20,10 +24,6 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
-chmod 600 $SSH_KEY
-eval `ssh-agent -s`
-ssh-add $SSH_KEY
-
 git push origin master
 
 # Come Back
