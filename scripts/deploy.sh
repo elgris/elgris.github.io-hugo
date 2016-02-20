@@ -8,6 +8,7 @@ cd public
 # Add changes to git.
 git config user.name "$GIT_NAME"
 git config user.email "$GIT_EMAIL"
+git checkout master
 git add -A
 
 # Commit changes.
