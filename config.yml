@@ -1,7 +1,7 @@
 contentdir: "content"
 publishdir: "public"
 baseurl: "http://elgris.github.io"
-title: "elgris = \" + \".join(\"tech\", \"travel\")"
+title: "creating software rocks!"
 footnotereturnlinkcontents: "↩"
 permalinks:
   post: /:year/:month/:title/

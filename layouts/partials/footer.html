@@ -1,0 +1,20 @@
+<footer class="li-page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="sixteen columns">
+                <p>-----</p>
+                <p> Who am I? Call myself <a href="https://github.com/elgris">elgris</a>, because I like to hide in shadows :). I'm a passionate software developer who also loves traveling! I know I should start my personal travel blog, but every time I tried to do that, I was distracted by tests, benchmarks, new ideas and new shiny technological toys. Sorry :) But I have a lot of stories to tell if you catch me one day and treat me a beer :) </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="sixteen columns">
+                <div class="li-page-footer-legal">
+                    {{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{.Now.Format "2006"}}. All rights reserved. {{end}}
+                </div>
+                <div class="li-page-footer-theme">
+                    <span class=""><a href="https://github.com/eliasson/liquorice/">liquorice</a> is a theme for <a href="http://hugo.spf13.com">hugo</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
