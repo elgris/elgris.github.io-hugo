@@ -12,7 +12,6 @@ cd public
 # Add changes to git.
 git config user.name "$GIT_NAME"
 git config user.email "$GIT_EMAIL"
-git checkout master
 git remote set-url --push origin git@github.com:"$GIT_NAME"/"$GIT_NAME".github.io.git
 git add -A
 
