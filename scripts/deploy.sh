@@ -4,7 +4,10 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Go To Public folder
 cd public
+
 # Add changes to git.
+git config user.name "$GIT_NAME"
+git config user.email "$GIT_EMAIL"
 git add -A
 
 # Commit changes.
