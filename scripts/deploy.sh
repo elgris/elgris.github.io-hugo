@@ -9,6 +9,7 @@ cd public
 git config user.name "$GIT_NAME"
 git config user.email "$GIT_EMAIL"
 git checkout master
+git remote set-url --push origin git@github.com:elgris/elgris.github.io.git
 git add -A
 
 # Commit changes.
