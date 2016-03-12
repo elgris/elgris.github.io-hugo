@@ -13,5 +13,5 @@ params:
   gaCode: "UA-75044111-1"
 canonifyurls: true
 theme: "liquorice"
-disqusShortname: "meelgris"
+disqusShortname: "elgris"
 disqus_identifier: elgris.github.io
