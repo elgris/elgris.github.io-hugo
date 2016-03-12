@@ -10,5 +10,8 @@ params:
   author: "elgris"
   GitHubUser: "elgris"
   SidebarRecentLimit: 5
+  gaCode: "UA-75044111-1"
 canonifyurls: true
 theme: "liquorice"
+disqusShortname: "meelgris"
+disqus_identifier: elgris.github.io
